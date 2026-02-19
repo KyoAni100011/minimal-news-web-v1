@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --background: #faf3e1;
+  --surface: #f5e7c6;
+  --primary: #fa8112;
+  --primary-hover: #e6720e;
+  --foreground: #222222;
+  --muted-foreground: rgba(34, 34, 34, 0.7);
+  --border: rgba(34, 34, 34, 0.1);
+}
+
+body {
+  font-size: 10pt;
+}
