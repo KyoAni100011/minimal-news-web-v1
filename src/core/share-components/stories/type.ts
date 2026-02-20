@@ -3,6 +3,7 @@ export type Story = {
   title: string;
   url: string;
   site: string;
+  content?: string;
   image?: string;
 };
 

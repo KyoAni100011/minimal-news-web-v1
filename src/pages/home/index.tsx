@@ -1,9 +1,6 @@
 import Navbar from "../../core/share-components/navbar";
+import StoryList from "../../core/share-components/stories";
 
 export default function Home() {
-  return (
-    <div className="md:w-5xl md:mx-auto">
-      <Navbar />
-    </div>
-  );
+  return <StoryList />;
 }

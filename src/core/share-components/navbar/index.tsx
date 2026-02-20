@@ -6,7 +6,7 @@ import type { NavLink } from "./type";
 
 export default function Navbar() {
   return (
-    <nav className="bg-(--primary)">
+    <nav className="bg-(--primary) mt-2">
       <div className="flex items-center justify-between py-0.5 px-1">
         <div className="flex items-center gap-2">
           <div className="border-2 h-6 w-6 rounded-xs text-center text-white">
